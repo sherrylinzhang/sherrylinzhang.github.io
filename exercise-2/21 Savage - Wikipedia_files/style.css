@@ -1,0 +1,39 @@
+body { background-color: #ffffff;
+	font-family: 'Rokkitt', serif;, san-serif;
+
+}
+
+h1 {
+  font-family: 'Bahiana', cursive;
+  color: #A60000;
+  text-align: center;
+  font-size: 150px;
+}
+div#mw-panel {
+	display: none;
+}
+div#p-personal {
+	display: none;
+}
+div#mw-head {
+	display: none;
+}
+div#mw-content-text {
+
+}
+div#content.mw-body {
+	position: relative;
+	left: -100px;
+	border-color: #ffffff;
+	margin-top: 0;
+}
+a {
+	font-weight: bold;
+	color: #FF1C1C;
+}
+a:visited {
+	color: #FF6400;
+}
+.fn {
+	color: #ffffff;
+}
