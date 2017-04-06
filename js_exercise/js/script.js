@@ -1,11 +1,14 @@
 
 $(document).ready(function() { //always do this first. A special event 
 
-//append new element 100 times
-for (i = 0; i < 100; i++) { 
-  $("body").append( "<div class='element' style='background-color: hsl(" + i * 3.6 + ", 100%, 50%);'></div>" );
-  console.log("element " + i + " added");
-}
+
+ //append new element 20 times, and repeat that 100 times
+  for (j = 0; j < 100; j++) {
+    for (i = 0; i < 20; i++) { 
+      $("body").append( "<div class='element' style='left:" + i*5 + "vw; top:" + j*50 + "px;'></div>" );
+      console.log("element " + j + ", " + i + " added");
+    }
+  }
 
   //mouse interaction
   $('.element').mouseover(function(){
