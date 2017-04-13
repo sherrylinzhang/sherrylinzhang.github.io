@@ -1,5 +1,5 @@
 h1 {
-	font-family: HelveticaNeue, sans-serif;
+	font-family: Helvetica, sans-serif;
 	font-weight: lighter;
 	color: #62717A;
 	font-size: 20px;
@@ -7,7 +7,7 @@ h1 {
 	padding-top: 10px;
 }
 h2 {
-	font-family: HelveticaNeue, sans-serif;
+	font-family: Helvetica, sans-serif;
 	color: #62717A;
 	font-size: 12px;
 	font-weight: lighter;
@@ -15,7 +15,7 @@ h2 {
 }
 
 h6 {
-	font-family: HelveticaNeue, sans-serif;
+	font-family: Helvetica, sans-serif;
 	color: #C4D0D9;
 	font-size: 8px;
 	font-weight: lighter;
@@ -23,13 +23,12 @@ h6 {
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
-p { font-family: HelveticaNeue, sans-serif;
-	color: #C4D0D9;
+p { font-family: Helvetica, sans-serif;
+	color: #75848C;
 	font-size: 18px;
 	font-weight: lighter;
 	margin-top: 5px;
-	margin-bottom: 5px;
-
+	line-height: 22px;
 }
 
 body {
@@ -44,11 +43,6 @@ strong {
 }
 a:link {
     color: #D35B2B;
-}
-
-
-p {
-	font-family: Helvetica, sans-serif;
 }
 
 
@@ -102,7 +96,42 @@ p {
 	top: 13px;
 	margin-left: 13px;
 	width: 350px;
-	height: 500px;
+	height: 550px;
+}
+
+.bill {
+	width: 328px;
+	background-color: #BAE2DD;
+	height: 105px;
+	position: relative;
+	left: 5px;
+	top: 20px;
+	border-radius: 10px;
+	border-color: #979797;
+	border-style: solid;
+	border-width: 1px;
+	font-family: Helvetica, sans-serif;
+	color: #75848C;
+	padding-top: 15px;
+	padding-left: 10px;
+	font-size: 18px;
+}
+
+.pay {
+	width: 150px;
+	background-color: #62717A;
+	height: 28px;
+	position: relative;
+	padding-top: 9px;
+	left: 95px;
+	border-color: #979797;
+	border-style: solid;
+	border-width: 1px;
+	font-family: Helvetica, sans-serif;
+	color: #ffffff;
+	font-size: 16px;
+	text-align: center;
+
 }
 
 /* Bordered form */
@@ -228,3 +257,49 @@ span.psw {
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
+
+/* saved payment box */
+
+.dropdownpayment {
+    position: relative;
+    display: inline-block;
+    background-color: #ffffff;
+    color: #75848C;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 16px;
+    border-color: #979797;
+	border-style: solid;
+	border-width: 1px;
+	left: 5px;
+	width: 328px;
+}
+
+.dropdownpayment-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    width: 328px;
+    padding-top: 10px;
+    padding-left: 8px;
+    top: 50px;
+    z-index: 1;
+    border-color: #979797;
+	border-style: solid;
+	border-width: 1px;
+	left: 0px;
+}
+
+.dropdownpayment:hover .dropdownpayment-content {
+    display: block;
+}
+
+#ctl00_Main_ucInternetCheck_txtChkAmount {
+	width: 100px;
+}
+
+table {
+	max-width: 340px;
+	padding-left: 5px;
+    border-color: #979797;
