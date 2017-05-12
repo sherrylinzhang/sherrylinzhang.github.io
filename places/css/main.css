@@ -56,9 +56,10 @@ iframe {
 	cursor: url("cursor.png"), auto;
 }
 #enter2 {
-	position: fixed;
+	position: absolute;
 	z-index: 10;
-	bottom: 160px;
+	top: 50%;
+	margin-top: -35%;
 	width: 100%;
 }
 #enter2 img {

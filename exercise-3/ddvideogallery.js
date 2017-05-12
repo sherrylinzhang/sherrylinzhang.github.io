@@ -1,8 +1,14 @@
+function myFunction() {
+    var x = document.getElementById('myDIV');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+
 /***********************************************
-* Youtube Video Gallery script (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
-* Requires: JQuery 1.5+
-* Last modified: April 15th, 16 v1.2 to fix iOS devices not loading videos
-* Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
+
 ***********************************************/
 
 var youtubeapidfd = $.Deferred()
