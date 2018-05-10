@@ -43,7 +43,7 @@ li a {
 }
 
 #pic {
-    width: 350px;
+    width: 600px;
 }
 h1 {
     font-family: 'helvetica',san-serif;
@@ -51,7 +51,7 @@ h1 {
     text-shadow: 1.5px 1.5px #000000;
     padding-left: 5%;
     padding-left: 5%;
-    margin-top: 5%;
+    padding-top: 5%;
     position: absolute;
     z-index: 10;
 
