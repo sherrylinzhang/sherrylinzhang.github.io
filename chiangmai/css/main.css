@@ -43,7 +43,7 @@ li a {
 }
 
 #pic {
-    width: 600px;
+    width: 500px;
 }
 h1 {
     font-family: 'helvetica',san-serif;
@@ -57,7 +57,7 @@ h1 {
 
 }
 img {
-    max-width: 100%;
+    width: 100%;
     overflow: auto;
 }
 
