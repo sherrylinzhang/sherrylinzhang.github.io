@@ -4,7 +4,15 @@ body {
 	background-color: #000000;
 }
 h1 {
-	font-family: helvetica, san-serif;
+	font-family: 'Helvetica, Arial, sans-serif';
 	font-size: 20px;
 	color: #ffffff;
+}
+a {
+	font-family: 'Helvetica, Arial, sans-serif';
+	font-size: 10px;
+	color: #ffffff;
+}
+a: hover {
+	color: #003202;
 }
